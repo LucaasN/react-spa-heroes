@@ -18,7 +18,7 @@ export const HeroPage = () => {
     <div className="row bg-dark-subtle rounded mt-5 py-4">
         <div className="col-4">
           <img 
-            src={`/assets/heroes/${id}.jpg`}
+            src={`/heroes/${id}.jpg`}
             alt={hero.superhero} 
             className="img-thumbnail animate__animated animate__fadeInLeft"
           />
